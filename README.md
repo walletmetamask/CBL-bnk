@@ -41,7 +41,7 @@ Perfect for learning payment system workflows, testing financial apps, or educat
 ## 🚀 Installation
 ```bash
 pkg install node.js
-git clone [[https://github.com/yourusername/bank-transfer-simulator.git](https://github.com/EMMYHENZ-TECH/Fake-bank.git)](https://github.com/EMMYHENZ-TECH/Fake-bank.git)
+git clone https://github.com/EMMYHENZ-TECH/Fake-bank.git
 npm install
 node server.js 
 ```
