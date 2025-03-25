@@ -60,3 +60,21 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 })
 
+//sending
+function sendToWhatsApp(event) {
+    event.preventDefault();
+    
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+    
+    // Format the phone number (remove spaces and special characters)
+    const phoneNumber = "17062481811"; // Replace with your WhatsApp number (without +)
+    
+    // Create the WhatsApp message
+    const text = `📣New Message from🏛:%0A%0AName: ${name}%0AEmail🌐: ${email}%0AMessage🖥: ${message}`;
+    
+    // Create the WhatsApp URL
+    window.location.href = `https://wa.me/${phoneNumber}?text=${text}`;
+}
+
